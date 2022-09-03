@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nilnul.bit.theorem
+{
+	/// <summary>
+	/// aka: indirect proof
+	/// </summary>
+	/// <remarks>
+	/// </remarks>
+	public class Convert
+	{
+	}
+}
