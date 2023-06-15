@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.bit.expr.stati.simple.str
+namespace nilnul.bit
 {
-	//public class List
-	//{
-	//}
+	public interface IOf:bit.IOp
+		,
+		nilnul.obj.IOf<bool>
+	{
+
+	}
 }

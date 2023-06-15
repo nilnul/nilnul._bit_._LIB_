@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.expr.simple.str
 {
-	public class List
-	{
-	}
+	//public class List
+	//{
+	//}
 }

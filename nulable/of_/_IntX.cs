@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.bit.op_
+namespace nilnul.bit.nulable.of_
 {
-	public interface IOf:bit.IOp
-		,
-		nilnul.obj.op_.IOf<bool>
+	static public class _IntX
 	{
-
+		static public bool? Of(int x) {
+			return x == 0 ? null : (x>0);
+		}
 	}
-
-	
 }

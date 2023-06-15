@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.op_.to_
 {
+	[Obsolete(nameof(bit.to_._ToIntX))]
 	static public class ToIntX
 	{
 		static public int ToInt(this bool x) {

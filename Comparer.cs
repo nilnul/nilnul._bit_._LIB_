@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit
 {
+	/// <summary>
+	/// false is smaller than true;
+	///  bit starts with false and then false->true;, 
+	/// </summary>
+	/// <remarks>
+	///   bit is a subset of num;and num starts with 0, where 0 -> 1; 
+	/// </remarks>
+	/// alias:
+	///		sign
+	///			:false is -1, true is 1 when acting as multiplier;
 	public class Comparer : IComparer<bool>
 	{
 		public int Compare(bool x, bool y)

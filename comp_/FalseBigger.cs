@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.comp_
 {
+	/// <summary>
+	/// 
+	/// </summary>
+	/// alias:
+	///		negated
+	///			-1 for true, 1 for false when acting as multiplier.
 	public class FalseBigger : IComparer<bool>
 	{
 		public int Compare(bool x, bool y)

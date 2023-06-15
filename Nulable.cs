@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit
 {
+	/// <summary>
+	/// we prefer nint to bool? as the latter is over complex and not performant.
+	/// </summary>
+	public interface INulable { }
 	static public class _NulableX
 	{
 		static public int ToInt(this bool? bitNul) {
