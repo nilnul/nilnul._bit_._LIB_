@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.bit
 {
 	[Obsolete()]
-	public partial class Assert
+	public  class Assert
 	{
 
 

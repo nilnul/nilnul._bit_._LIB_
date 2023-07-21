@@ -24,7 +24,7 @@ namespace nilnul.bit.op.set.be_.complete_.byCompoFunc_.ofVec_
 	/// vs: 
 	///  E. L. Post, The two-valued iterative systems of mathematical logic, Annals of Mathematics studies, no. 5, Princeton University Press, Princeton 1941, 122 pp.
 	///
-	[Obsolete(nameof(op_.of_.vec.set.be_.Complete))]
+	[Obsolete(nameof(of_.vec.set.be_.Complete))]
 	public class ProjectionIni
 	{
 		public bit.OpI2[] ops;

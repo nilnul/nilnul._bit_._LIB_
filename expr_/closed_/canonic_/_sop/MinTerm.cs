@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.var.stati._cannonic
 {
+	/// <see cref="expr_.var.set.allot"/>, <see cref="expr_.var.sortie.allots_.omni.Poll"/>
+	/// <see cref="bit.var.set.ballot"/>
+	/// <see cref="bit.var.sortie"/>
+	/// <see cref="bit.var.sort.Minterm"/>
+	/// <summary>
+	/// generate the minterms for given vars;
+	/// </summary>
 	public class MinTerm
 	{
 		private nilnul.bit.var.stati.str.be.Distinct.Asserted _vars;

@@ -10,6 +10,9 @@ namespace nilnul.bit.op_
 	/// not, and, or. nothing else.
 	/// This is named common, as the set of ops is common in all languages including natural languages
 	/// </summary>
+	/// alias:
+	///		common
+	///		basic
 	public interface ICommon
 	{
 	}

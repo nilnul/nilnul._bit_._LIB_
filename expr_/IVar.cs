@@ -21,6 +21,8 @@ namespace nilnul.bit.expr_
 		:nilnul.obj.expr_.typed_.generi_.IVar<bool>
 		,
 		bit.IExpr
+		,
+		bit.expr_.IClosed
 
 	{
 

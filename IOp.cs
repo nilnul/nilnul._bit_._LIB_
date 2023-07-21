@@ -8,6 +8,8 @@ namespace nilnul.bit
 {
 	public interface IOp
 		: nilnul.obj.IOp<bool>
+		,
+		bit.of_.IVec
 	{
 
 

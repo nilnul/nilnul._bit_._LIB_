@@ -13,7 +13,7 @@ namespace nilnul.bit.expr_.closed_.common_
 	///		if we analog "+" to logical operator "|", "*" to "&", "-" to "!"
 	///		the left is pos, the right is sop. the middle is common, but not norm as it's neither sop nor pos.
 	/// </summary>
-	public interface INormal
+	public interface IStd:ICommon
 	{
 	}
 }

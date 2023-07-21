@@ -11,12 +11,24 @@ namespace nilnul.bit.expr_.call_.duo_.equiv.be_.tauto
 
 	{
 
+		static public Vow Unison
+		{
+			get
+			{
+				return nilnul._obj.typ_._UnisonX<Vow>.Unison;
+			}
+		}
+
+
+		[Obsolete(nameof(Unison))]
 		static public readonly Vow Singleton = nilnul.obj.SingletonByDefault<Vow>.Instance;
 
 		public void vow(Duo1 duoExpr)
 		{
 
-			vow( new nilnul.bit.expr_.call_.duo_.Equiv(duoExpr) );
+			base.vow(
+				new nilnul.bit.expr_.call_.duo_.Equiv(duoExpr)
+			);
 		//	throw new NotImplementedException();
 		}
 	}

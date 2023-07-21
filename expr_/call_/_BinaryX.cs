@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.expr_.call_
 {
-	static public class _BinaryX
+	static  class _BinaryX
 	{
 		
 	}

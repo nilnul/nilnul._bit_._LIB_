@@ -10,7 +10,7 @@ namespace nilnul.bit.var.poll.minterm.set_.sameVars.canonical.convert_
 	/// append new vars to the canonical form to get an equiv canonical form
 	/// </summary>
 	/// todo:
-	public interface AugVarsI
+	 interface AugVarsI
 	{
 	}
 }

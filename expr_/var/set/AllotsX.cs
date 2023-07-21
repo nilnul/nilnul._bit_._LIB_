@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.expr_.var.set
 {
+	/// <summary>
+	/// <see cref="var.set.ISels"/>
+	/// </summary>
 	public class _AllotsX
 	{
 

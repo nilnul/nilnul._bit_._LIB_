@@ -6,27 +6,15 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.expr_.var.set
 {
-	/// <summary>
-	/// 
-	/// </summary>
-	/// <remarks>
-	///	alias:
-	///		checklist
-	///		check
-	///	nomenclature:
-	///		Ballot
-	///			b all of biT
-	///		Poll
-	///			vs Vote, which is yes/no for a single question, poll is yes/no for each and every memeber of a set.
-	///		Assignment
-	///			assign value to each/every var
-	///		allot
-	///			all of typedVal
-	///				vs assign: assign is for a single variable
-	///			like ballot, but without B
-	/// </remarks>
-	/// 
-	public class Allot : nilnul.obj.dict_.Poll<nilnul.bit.expr_.Var_sys,  nilnul.bit.expr_.var.Eq>
+
+
+	[Obsolete(nameof(bit.expr_.var.set.Sel))]
+
+	public class Allot
+		:
+		nilnul.obj.dict_.Poll<nilnul.bit.expr_.Var_sys,  nilnul.bit.expr_.var.Eq>
+		,
+		ISel
 	{
 		public Allot(Dictionary<nilnul.bit.expr_.Var_sys, bool> dict):base(dict)
 		{

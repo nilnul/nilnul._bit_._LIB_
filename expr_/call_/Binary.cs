@@ -237,6 +237,8 @@ namespace nilnul.bit.expr_.call_
 			return new Binary1(bit.op_.binary_.Xor.Singleton, x, y);
 		}
 
+	
+
 		static public Binary1 CreateEq(ExprI3 x, ExprI3 y)
 		{
 			return new Binary1(bit.op_.binary_.Iff.Singleton, x, y);

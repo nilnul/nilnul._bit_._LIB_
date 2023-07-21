@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.var.set
 {
-	
+
+	/// <summary>
+	/// the eq of the set, not the var.
+	/// </summary>
 
 	[Obsolete()]
 	public class Eq1:

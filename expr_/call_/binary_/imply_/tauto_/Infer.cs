@@ -11,7 +11,7 @@ namespace nilnul.bit.expr_
 {
 	public class Infer : nilnul.bit.expr_.call_.binary_.le_.Tauto
 	{
-		private E exprI1;
+		//private E exprI1;
 
 		public Infer(Imply val) : base(val)
 		{

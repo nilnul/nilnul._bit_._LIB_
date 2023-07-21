@@ -22,7 +22,7 @@ namespace nilnul.bit.op.set.be_.complete_.byCompoFunc_
 	/// 
 	/// </remarks>
 	///
-	[Obsolete(nameof(op_.of_.vec.set.be_.Complete))]
+	[Obsolete(nameof(of_.vec.set.be_.Complete))]
 	public class AssumeArityNonpoly
 	{
 		public bit.OpI2[] ops;

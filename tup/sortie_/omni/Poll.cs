@@ -11,9 +11,13 @@ namespace nilnul.bit.tup.sortie_.omni
 	/// <summary>
 	/// by using sortie, the data is compactly stored in a structure
 	/// </summary>
+	/// 
 	/// <remarks>
+	/// this is useful for <see cref="bit.expr_.var.sortie.sels_.omni.IPoll"/>
 	/// <see cref="nameof(TruthTable)"/>
 	/// </remarks>
+	/// alias:
+	///		ballot
 	public class Poll:IPoll
 	{
 		/// <summary>

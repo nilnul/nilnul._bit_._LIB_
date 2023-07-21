@@ -13,7 +13,7 @@ namespace nilnul.bit.var.poll.minterm.set_.sameVars.canonical.convert_
 	///	= Pi(!mo, !m2, !m3)
 	///	= Pi (Sigma( m1,m2,m3), Sigma(m0,m1,m3), Sigma(m0,m1,m3)   )
 	/// </summary>
-	public class Neg : ConvertI
+	 class Neg : ConvertI
 	{
 
 		///returns the complement of the minterms

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.op_
 {
+	[Obsolete(nameof(bit.IOf))]
 	public interface IOf:bit.IOp
 		,
 		nilnul.obj.op_.IOf<bool>

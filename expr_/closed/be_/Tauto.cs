@@ -38,7 +38,7 @@ namespace nilnul.bit.expr_.closed.be_
 			if (vars.Count == 0)
 			{
 				return 
-					nilnul.bit.expr_.calc._EvalX1.Eval_assumeCalc
+					nilnul.bit.expr_.nonvariate._EvalX._Eval_0nonvariate
 					(expr.ee.expr.ee ) 
 					;
 			}
