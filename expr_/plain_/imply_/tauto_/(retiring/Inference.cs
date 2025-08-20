@@ -9,6 +9,13 @@ namespace nilnul.bit.expr_.tauto_
 	/// <summary>
 	/// for an expression of the form: A -> B
 	/// </summary>
+	/// alias:
+	///		so
+	///		therefore
+	///		hence
+	///		then
+	///		thence
+	///	<see cref="bit._proof.Sequent"/>
 	public class Inference
 	{
 

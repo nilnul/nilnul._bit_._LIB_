@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +9,10 @@ namespace nilnul.bit
 	public class Sortie
 		: nilnul.obj.Sortie3<bool>
 	{
+		public static readonly bool[] ARR = [false, true];
+
+		public const int COUNT = 2;
+
 		public Sortie(ObjsI3<bool> val) : base(val)
 		{
 		}
@@ -20,7 +24,7 @@ namespace nilnul.bit
 		public Sortie(params bool[] elements) : base(elements)
 		{
 		}
-		public Sortie():base(false,true)
+		public Sortie():base(ARR)
 		{
 
 		}

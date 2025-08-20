@@ -11,7 +11,7 @@ using nilnul.obj.var.stati;
 
 namespace nilnul.bit.expr.stati.simple.str.op
 {
-	[Obsolete(nameof(bit.expr_.var.set.IMinterms))]
+	[Obsolete(nameof(bit.expr_.var.set.ballot.IMinterms))]
 	public class Conjunct
 	{
 		

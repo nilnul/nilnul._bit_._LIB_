@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.expr_
 {
+	/// <summary>
+	/// any subexpr is also <see cref="bit.IExpr"/>
+	/// </summary>
 	public interface ClosedI
 		:nilnul.obj.expr_.typed_.generi_.ClosedI<bool>
 		,

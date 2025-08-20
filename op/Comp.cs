@@ -9,10 +9,10 @@ namespace nilnul.bit.of_.vec
 	/// <summary>
 	/// just view its truth table.
 	/// </summary>
-	public class Comp : IComparer<nilnul.bit.of_.VecI>
+	public class Comp : IComparer<nilnul.bit.of_.ScalaI>
 	{
 
-		static public int OrdByTruthTableResult(of_.VecI op)
+		static public int OrdByTruthTableResult(of_.ScalaI op)
 		{
 			return bit.str.op_.to_._AsRadixX.AsRadix(
 
@@ -21,7 +21,7 @@ namespace nilnul.bit.of_.vec
 
 		}
 
-		public int Compare(VecI x, VecI y)
+		public int Compare(ScalaI x, ScalaI y)
 		{
 			if (x.arity == y.arity)
 			{

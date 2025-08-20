@@ -12,7 +12,7 @@ namespace nilnul.bit.of_.vec
 	/// <seealso cref="bit.expr_.capsule.to_.ICalibrate"/>
 	static public class _TruthTableX
 	{
-		static public IEnumerable<bool> LastCol(of_.VecI op)
+		static public IEnumerable<bool> LastCol(of_.ScalaI op)
 		{
 
 			return nilnul.obj.str.strung.op_.binary_.cartesian.cumulator.Cumulate<bool>.Singleton.cumulate_each2monos(
@@ -31,7 +31,7 @@ namespace nilnul.bit.of_.vec
 
 		}
 
-		static public tup.sortie_.omni.Poll Tabuleau(of_.VecI op)
+		static public tup.sortie_.omni.Poll Tabuleau(of_.ScalaI op)
 		{
 			var inputs =nilnul.obj.str.strung.op_.binary_.cartesian.cumulator.Cumulate<bool>.Singleton.cumulate_each2monos(
 				Enumerable.Repeat(

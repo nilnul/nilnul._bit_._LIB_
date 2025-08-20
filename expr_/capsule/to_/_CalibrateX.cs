@@ -40,7 +40,7 @@ namespace nilnul.bit.expr_.capsule.to_
 				x =>
 					expr_.capsule._EvalX.Eval(
 						expr,
-						expr_.var.set.Sel._Create__assumeSameCount(varsAsSorteEnumed, x)
+						expr_.var.set.Ballot._Create__assumeSameCount(varsAsSorteEnumed, x)
 					)
 			).ToArray();
 

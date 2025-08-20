@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +15,7 @@ namespace nilnul.bit.abgebra_.cobiop_.semi4both_
 	public interface ISemiring
 		:ICobiop
 		,
-		nilnul.obj.abgebra_.cobiop_.semi4both_.ISemiring
+		nilnul.obj.abgebra_.cobi_.semi4both_.ISemiring
 	{
 	}
 

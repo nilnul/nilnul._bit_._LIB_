@@ -37,7 +37,7 @@ namespace nilnul.bit.expr_.capsule
 		}
 
 
-		static public bool Eval(E expr, bit.expr_.var.set.Sel assignment_allVars)
+		static public bool Eval(E expr, bit.expr_.var.set.Ballot assignment_allVars)
 		{
 			var vars = nilnul.bit.expr._VarsX.Vars4set(expr);
 			if (!nilnul.bit.expr_.var.set.Eq.Unison.Equals(

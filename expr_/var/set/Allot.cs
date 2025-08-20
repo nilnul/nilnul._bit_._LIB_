@@ -8,13 +8,13 @@ namespace nilnul.bit.expr_.var.set
 {
 
 
-	[Obsolete(nameof(bit.expr_.var.set.Sel))]
+	[Obsolete(nameof(bit.expr_.var.set.Ballot))]
 
 	public class Allot
 		:
 		nilnul.obj.dict_.Poll<nilnul.bit.expr_.Var_sys,  nilnul.bit.expr_.var.Eq>
 		,
-		ISel
+		IBallot
 	{
 		public Allot(Dictionary<nilnul.bit.expr_.Var_sys, bool> dict):base(dict)
 		{

@@ -11,7 +11,7 @@ namespace nilnul.bit.expr.stati.be
 	/// if it's var, not var, no.call.
 	/// </summary>
 	///
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 	public partial class Simple:nilnul.obj.BeI<StatiI>
 	{
 		static public bool IsNegVar(mono.Call x) {

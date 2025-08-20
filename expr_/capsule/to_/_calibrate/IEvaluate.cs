@@ -9,7 +9,7 @@ namespace nilnul.bit.expr_.capsule.to_._calibrate
 	/// <summary>
 	/// 
 	/// </summary>
-	/// <see cref="expr_.var.set.sel.IVote"/>
+	/// <see cref="expr_.var.set.ballot.IVote"/>
 	/// alias:
 	///		calculate
 	///		evaluate

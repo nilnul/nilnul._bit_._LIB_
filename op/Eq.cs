@@ -10,7 +10,7 @@ namespace nilnul.bit.of_.vec
 	/// just view its truth table.
 	/// </summary>
 	public class Eq :
-		IEqualityComparer<nilnul.bit.of_.VecI>
+		IEqualityComparer<nilnul.bit.of_.ScalaI>
 	{
 		
 
@@ -18,7 +18,7 @@ namespace nilnul.bit.of_.vec
 
 	
 
-		public bool Equals(VecI x, VecI y)
+		public bool Equals(ScalaI x, ScalaI y)
 		{
 			if (x.arity!=y.arity)
 			{
@@ -36,7 +36,7 @@ namespace nilnul.bit.of_.vec
 		}
 
 
-		public int GetHashCode(VecI obj)
+		public int GetHashCode(ScalaI obj)
 		{
 			return 0;
 

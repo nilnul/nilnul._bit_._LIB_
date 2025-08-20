@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,28 @@ using System.Threading.Tasks;
 
 namespace nilnul.bit.co
 {
+	static public class _SortieX
+	{
+
+		static public IEnumerable<(bool former, bool latter)> Seq() {
+			var bits = bit.Sortie.ARR;
+
+			return nilnul.obj.str.strung.op_.binary_._CartesianX.Seq_byQuery(
+					bits
+					,
+					bits
+
+			);
+		}
+
+		static public readonly (bool former, bool latter)[] Array = Seq().ToArray();
+
+		public const int COUNT = 4; /// sq(2)
+
+
+
+	}
+
 	public class Sortie
 		: nilnul.obj.Sortie3<(bool, bool)>
 	{
@@ -33,20 +55,30 @@ namespace nilnul.bit.co
 		{
 		}
 
-		
-
-		static public Sortie OfAll() {
-			var bits = bit.Sortie.OfAll();
-			return new Sortie(
-				nilnul.obj.str.strung.op_.binary_._CartesianX.Seq_byQuery(
-					bits.ee
-					,
-					bits.ee
+		public Sortie():this(_SortieX.Seq())
+		{
 				
-				)
+		}
+
+
+		static public Sortie Singleton
+		{
+			get
+			{
+				return nilnul._obj.typ_.nilable_.unprimable_.Singleton<Sortie>.Instance;
+			}
+		}
+
+
+		[Obsolete(nameof(Singleton))]
+		static public Sortie OfAll() {
+			
+			return new Sortie(
 				
 			);
 		}
+
+		[Obsolete(nameof(Singleton))]
 		static public readonly Sortie All = OfAll();
 
 

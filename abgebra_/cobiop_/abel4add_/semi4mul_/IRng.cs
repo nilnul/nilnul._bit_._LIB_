@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +14,7 @@ namespace nilnul.bit.abgebra_.cobiop_.abel4add_.semi4mul_
 		,
 		_rng.IDistributive
 		,
-		obj.abgebra_.cobiop_.abel4add_.semi4mul_.IRng
+		obj.abgebra_.cobi_.abel4add_.semi4mul_.IRng
 	{
 	}
 }

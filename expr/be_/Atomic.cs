@@ -15,9 +15,9 @@ namespace nilnul.bit.expr.be_
 	///		var, or call_.nary, as these two are really atomic or unseparable.
 	///	var or nary.
 	/// </remarks>
-	/// <see cref="bit.expr_.var.set._sel.IValve"/>
+	/// <see cref="bit.expr_.var.set._ballot.IValve"/>
 	///
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 	public class Atomic:BeI
 	{
 		

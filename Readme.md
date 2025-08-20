@@ -24,7 +24,7 @@ where
 	date, for example:230722, is in yymmdd format, 
 	time, for example: 200220, is in hhMMss format.
 
-So you can always tell from the package version of the datetime of this package.
+So you can always tell from the package version of the datetime of this package; that can help you decide whether the package is the one just pushed to the server.
 
 Currently, the version is appended with "-sym", so please make sure to check "including Previews" to search for it from nuget.org.
 
@@ -78,7 +78,7 @@ Here we organized some concepts which can help grasp the essence of bit algebra 
 To determine whether a set of operators is complete or not, we can use: 
 nilnul.bit.of_.vec.set.be_.Complete.
 
-We also have a corresponding unit test for it, whether you can verify some frequently mentioned sets of operators are complete or not. For example:
+We also have a corresponding unit test for it, where you can verify some frequently mentioned sets of operators are complete or not. For example:
 
 {1,xor, and} is complete, while {xor, and} is not.
 
@@ -99,6 +99,39 @@ The naming follows nilnul dev style, which will be detailed later in other proje
 
 for a brief idea. The style is currently relative stable, consisitent and inclusive, but hasnot been well documented. But to read the code of nilnul project, you may find over time that they all follow the same style.
 
+# Appliance
+
+### For education
+
+Many our textbooks can be rewritten and we need to rethink our way of education given all the technology advances over these years.
+
+Bit and some of its common operators shall be taught as early as in elementary school. For example, the following calculations shall have been learned in grade 1 or 2:
+```
+0
+1
+!1
+!0
+1 && 0
+1 | 1
+```
+
+Other operators such as: -> and <->  can be also learned in elementary school or in junior school.
+
+As all the cases can be enumerated, we can teach the concept of operator commutativity and distributivity, and the proof is trivia; this cannot be done in natural numbers when in elementary school. 
+
+Expressions of vars, such as:
+```
+x & y
+y -> z
+x & y |z
+```
+can be learned in junior school. With these expressions, the equivalence transformation rules can be taught. Canonical expressions are defined and learned as well when at this stage.
+
+Teachers and Students can use this library's testing project to represent an expression, and step into its calculations to understand how it works out. For example, we can try to see or verify easily if a set of operators are complete by using the algorithm readily presented in the library and the test.
+
+## For professionals
+
+This library can be enriched and compiled, and then can be used in real-world information systems. The compiled package pushed to nuget is ready to be installed to your application.
 
 # License
 Please view the license file under the base folder of each project.

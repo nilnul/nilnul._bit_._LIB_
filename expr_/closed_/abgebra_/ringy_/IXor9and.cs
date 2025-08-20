@@ -17,7 +17,7 @@ namespace nilnul.bit.expr_.closed_.abgebra_.ringy_
 	///		xor( prod(), x) =!x
 	/// </summary>
 	/// <remarks>
-	///
+	///The algebraic degree of a function is the order of the highest order monomial in its algebraic normal form
 	/// </remarks>
 	internal class IXor9and
 	{

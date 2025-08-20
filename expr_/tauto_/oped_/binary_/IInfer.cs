@@ -3,6 +3,9 @@
 	/// <summary>
 	/// a tauto that is <see cref="expr_.call_.binary_.Imply"/>
 	/// </summary>
+	/// vs:
+	///		<see cref="bit.op_.binary_.Imply"/>, which returns a bit,
+	///			,whileas this returns void, and might throw excetion if it turns out to be not a <see cref="expr_.ITautology"/>
 	interface IInference:ITautology { }
 
 	static  class _InferenceX

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,7 +35,7 @@ namespace nilnul.bit.vow_
 			}
 		}
 
-		static public void Vow_ovXpn<T>(bool bit, string x)
+		static public void Vow(bool bit, string x)
 
 		{
 			if (!bit)

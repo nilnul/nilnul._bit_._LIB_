@@ -10,10 +10,10 @@ namespace nilnul.bit.expr.stati.be
 	/// <summary>
 	/// if it's var, not var, no.call.
 	/// </summary>
-	/// <see cref="bit.expr_.var.set._sel.IValve"/>
+	/// <see cref="bit.expr_.var.set._ballot.IValve"/>
 	///
 
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 	public class Atomic:nilnul.obj.BeI<StatiI>
 	{
 		static public bool IsNegVar(mono.Call x) {

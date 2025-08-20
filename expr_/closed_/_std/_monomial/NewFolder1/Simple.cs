@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.bit.expr_
 {
 	//[Obsolete("var or nullary-op or unary-op")]
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 
 	public interface SimpleI:nilnul.bit.ExprI2
 	{

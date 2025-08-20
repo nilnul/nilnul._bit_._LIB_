@@ -1,4 +1,4 @@
-﻿namespace nilnul.bit.abgebra_.pargoid_.magma_.semi_.monoid_.grp_.abel_.eg_
+namespace nilnul.bit.abgebra_.pargoid_.magma_.semi_.monoid_.grp_.abel_.eg_
 {
 	/// <summary>
 	/// 0~0=1 1~1 =1
@@ -7,11 +7,15 @@
 	/// <remarks>
 	/// 1 is neutral.
 	/// the inverse: 0~0 =1, 1~1 =1
-	/// ;unfortunately, this op is not idempotent.
+	/// ;unfortunately, this op is not idempotent, as 0~0=1.
+	/// ; there is no annihilator;
 	/// </remarks>
+	/// 
 	internal class Eq
 	{
 	}
+
+
 
 
 

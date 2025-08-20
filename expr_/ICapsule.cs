@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.bit.expr_
 {
 	/// <summary>
-	/// 
+	/// the input and output are <see cref="bit.IExpr"/>, but interim subexpr might be not <see cref="bit.IExpr"/>
 	/// </summary>
 	/// <remarks>
 	/// alias:

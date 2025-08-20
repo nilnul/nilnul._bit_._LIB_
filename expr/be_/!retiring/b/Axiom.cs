@@ -9,9 +9,9 @@ namespace nilnul.bit.expr.stati.b
 	/// <summary>
 	/// the expr, tried with different combinations of assignment of values, is always equal to 1.
 	/// </summary>
-	/// <see cref="bit.expr_.var.set._sel.IValve"/>
+	/// <see cref="bit.expr_.var.set._ballot.IValve"/>
 	/// 
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 	public class Axiom
 	{
 

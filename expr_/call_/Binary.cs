@@ -17,6 +17,7 @@ using E = nilnul.bit.ExprI3;
 namespace nilnul.bit.expr_.call_
 {
 
+	[Obsolete(nameof(nilnul.bit.expr_.call_.Binary_generi))]
 	public class Binary1
 	:
 	nilnul.obj.call_.Binary<bit.op_.BinaryI1, nilnul.bit.ExprI3, nilnul.bit.ExprI3>

@@ -8,7 +8,7 @@ namespace nilnul.bit.of_.vec
 {
 	public class Set :
 		nilnul.obj.set_.EqDefaulted<
-			of_.VecI
+			of_.ScalaI
 			,
 			vec.Eq
 		>
@@ -18,11 +18,11 @@ namespace nilnul.bit.of_.vec
 		{
 		}
 
-		public Set(params VecI[] vars) : base(vars)
+		public Set(params ScalaI[] vars) : base(vars)
 		{
 		}
 
-		public Set(IEnumerable<VecI> elements) : base(elements)
+		public Set(IEnumerable<ScalaI> elements) : base(elements)
 		{
 		}
 

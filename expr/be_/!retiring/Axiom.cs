@@ -11,7 +11,7 @@ namespace nilnul.bit.expr.stati.be
 	/// </summary>
 	///
 
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 	public class Axiom
 	{
 

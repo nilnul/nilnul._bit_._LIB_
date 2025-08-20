@@ -8,7 +8,7 @@ using System.Collections;
 
 namespace nilnul.bit.expr.stati.simple
 {
-	[Obsolete(nameof(bit.expr_.var.set.ISel))]
+	[Obsolete(nameof(bit.expr_.var.set.IBallot))]
 	public class Str
 		:
 		nilnul.Box<IEnumerable<Simple.Asserted>>,

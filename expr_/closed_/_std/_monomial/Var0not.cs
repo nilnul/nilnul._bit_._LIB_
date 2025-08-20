@@ -13,7 +13,7 @@ namespace nilnul.bit.expr_.closed_._canonic
 	///		!x
 	/// </summary>
 	///
-	[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+	[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 	public interface IVar0not:nilnul.bit.expr_.IClosedOnIo
 		,
 		IValve

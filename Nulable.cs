@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +9,7 @@ namespace nilnul.bit
 	/// <summary>
 	/// we prefer nint to bool? as the latter is over complex and not performant.
 	/// </summary>
+	/// 阳气、阴气、和气，三生万物
 	public interface INulable { }
 	static public class _NulableX
 	{

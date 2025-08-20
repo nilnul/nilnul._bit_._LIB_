@@ -339,3 +339,16 @@ MigrationBackup/
 /nugetPush.bat
 /nugetInstall._nilnul_._DB_.bat
 /nugetPack -release.bat
+
+**/*.out(![Gg]it)*
+**/*(!git/
+*(![Gg]it)*
+*).git/
+*(.git/
+*(!git/
+*([Gg]it/
+.*/
+*.skb
+
+.*
+!.gitignore

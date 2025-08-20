@@ -6,7 +6,7 @@ namespace nilnul.bit.expr.stati.be
 
 	public partial class Simple
 	{
-		[Obsolete(nameof(bit.expr_.var.set._sel.IValve))]
+		[Obsolete(nameof(bit.expr_.var.set._ballot.IValve))]
 		public class Asserted : nilnul.obj.Asserted1<StatiI, Atomic>
 		{
 			public Asserted(StatiI x) : base(x)

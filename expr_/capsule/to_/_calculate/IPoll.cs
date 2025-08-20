@@ -16,7 +16,7 @@ namespace nilnul.bit.expr_.capsule.to_._calculate
 	///		
 	internal class IAllot
 		:
-		bit.expr_.var.set.ISel
+		bit.expr_.var.set.IBallot
 	{
 	}
 }

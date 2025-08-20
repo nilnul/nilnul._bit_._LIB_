@@ -22,9 +22,14 @@ namespace nilnul.bit.abgebra_.cobiop_.grp4add_.monoid4mul_.ring_.eg_
 	/// nilard: 0, as 0^0=0, 0^1=1;
 	/// negation: 0^0=0, 1^1=0
 	/// oneness: 1, as 1&0=0, 1&1=1;
-	/// for nonnil, 1 &1 =1.
+	/// for nonnil division, 1 &1 =1.
 	/// annillator: 0 & x =0
 	/// </summary>
+	/// <remarks>
+	/// this is also domain;
+	/// this is a field.
+	/// </remarks>
+	/// 
 	internal class Xor9and:IEg
 	{
 	}
