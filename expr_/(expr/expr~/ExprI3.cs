@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using nilnul._expr;
+using nilnul._op;
+using nilnul.bit._expr;
+using nilnul.bit.var;
+using nilnul.var;
+
+namespace nilnul.bit
+{
+
+	/// <summary>
+	/// 
+	/// </summary>
+	///
+	[Obsolete()]
+	public interface ExprI3
+		:_expr_.VarsI1
+		,
+		_expr_.SubstituteI2
+	{
+
+	}
+
+	
+
+
+
+
+}
